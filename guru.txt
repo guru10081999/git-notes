@@ -1,0 +1,21 @@
+git init::
+==> it initialises en empty repository as a git repository on your local machine..
+==> we have created an empty folder -"" and run the "git init" command to mark it as a git repository
+
+git status::
+==>  git status will show a list of all files along with their status. newly added files will be "untracked" by git initially.
+
+git add::
+==> out of all the untracked files, we can pick which file to commit. this is called as staging.
+==> use below command to satge a file is: git add <file>.
+
+git commit::
+==> now , its time to commit the file to our local repository using git commit -m <commit-message>.
+
+paste the link::
+==> paste the repository link to push the file.
+
+git push::
+==>At last, using the below push command we can send our files to the remote repository.
+==> git push -u origin <remote-branch-name>
+//remote-branch-name is master or main//
